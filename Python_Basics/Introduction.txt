@@ -22,3 +22,12 @@ community, makes Python an ideal language for learning and prototyping.
 In summary, Python is a popular, general-purpose programming language known for its simplicity, readability,
 and extensive library ecosystem. Its versatility, combined with its supportive community, has made it a go-to
 choice for a wide range of applications, from small scripts to large-scale projects in various domains.
+
+#Below are the most used pyton language keywords during programming.
+# False      class      finally    is         return
+# None       continue   for        lambda     try
+# True       def        from       nonlocal   while
+# and        del        global     not        with
+# as         elif       if         or         yield
+# assert     else       import     pass
+# break      except     in         raise
