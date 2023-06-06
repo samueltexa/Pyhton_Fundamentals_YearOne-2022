@@ -20,3 +20,5 @@ print(f"Muximum is:{maximum}" )
 print(f"Mimum is:{lowest} ")
 print(f"Muximum is:{maximum}", f"\nMinimum is:{lowest}")
 print(f"Muximum is:{maximum}\nMinimum is:{lowest}")
+print("Max is" +str(maximum) +"and" "min is"+str(lowest))
+
