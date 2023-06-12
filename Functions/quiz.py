@@ -1,13 +1,31 @@
 def welcomeInerface():
-    print("""Home Of Quiz Qustions
-          Buttons
-           Start
-           Exit""")
+    print(
+        """<========Home Of Quiz Questions=======>
+Enter Start to continue and Exit to Exit
+            Start
+            Exit""")
+    start_game()
+    
+def start_game():
+    option = input("Enter your option here: ")
+    if option == "start":
+        nameInterface()
+        import sys
+        sys.exit()
+    if option == "exit":
+        exit()
+    else:
+        print("Invalid option chosen.")
+        
+def exit():
+    print("Thaks for passing by, hope to see you soon.")
 
-
-def welcomeInterface():
+def nameInterface():
     name = input("Provide your name to continue\nEnter your name:")
     print(f"Hello! {name}, welcome to a question quiz game.")
+    print("Please answer the questions below.")
+    question1()
+    question()
 
 
 def question1():
@@ -30,6 +48,5 @@ def question():
             print("Thats wrong answer.")
     except NameError:
         print("Gabbage entered")
-
 
 welcomeInerface()
