@@ -119,3 +119,9 @@ print(converter)
 # copy method: Makes a copy of the dictionary
 new = converter.copy()
 print(new)
+
+#Merging two dictionaries
+dictionary1 = {"Name":"Kampala","Country":"Uganda"}
+dictionary2 = {"Name1":"Alabama", "Country1":"America"}
+merge = {**dictionary1, **dictionary2}
+print(merge)

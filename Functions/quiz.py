@@ -27,7 +27,6 @@ def nameInterface():
     question1()
     question()
 
-
 def question1():
     question1 = input("What is the capital of Uganda?\nEnter your answer:")
     try:
@@ -37,7 +36,6 @@ def question1():
             print("Thats wrong answer.")
     except NameError:
         print("Gabbage entered")
-
 
 def question():
     question3 = input("Who led Uganda to independence?\nEnter your answer:")
