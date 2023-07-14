@@ -52,10 +52,6 @@ def server_program():
         server_socket.listen(5)  # Listen for incoming connections
         print("\nServer started, waiting for connections.")
         server_socket.settimeout(20)  # Set a timeout for accepting connections
-    # except OSError:
-    #     print("Server already in Use please wait for a")
-
-    # try:
         while True:
             try:
                 conn, address = server_socket.accept()  # Accept a new client connection
@@ -64,9 +60,6 @@ def server_program():
                 continue
     except OSError:
         print("Server already in use please wait for a moment")
-    # except Exception as e:
-    #     print("H")
-    #     # print("An error occurred:", str(e))
     finally:
         for client in clients:
             client[0].close()  # Close all client connections
