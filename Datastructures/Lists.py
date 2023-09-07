@@ -42,7 +42,10 @@ print(list)
 
 # 2.Remove: Removes the given element from the list, it takes exactly one argument.
 list.remove("emma")
-print(list)
+print(f"\nThe lis after removing emma is: {list}\n")
+    #rremoving an element using del
+del list[1]
+print(f"\nThe lis after removing dani is: {list}\n")
 
 # 3.Pop: Removes the given element at an index provided, it takes exactly one argument(index).
 list.pop(0)
