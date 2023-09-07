@@ -12,3 +12,8 @@ print(b) #prints the whole tuple
 #index of tuples are also 0 based.
 
 print(b[4]) #this prints a single element in a tuple, in this case "go"
+
+mytuple = [1,2,3],[3,5,6,7],[9,0]
+print(mytuple)
+print(mytuple[0])
+print(len(mytuple))
