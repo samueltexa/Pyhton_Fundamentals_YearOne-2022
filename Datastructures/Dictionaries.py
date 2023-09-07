@@ -124,4 +124,4 @@ print(new)
 dictionary1 = {"Name":"Kampala","Country":"Uganda"}
 dictionary2 = {"Name1":"Alabama", "Country1":"America"}
 merge = {**dictionary1, **dictionary2}
-print(merge)
+print("The merged dictionary is:",merge)
