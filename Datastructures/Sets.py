@@ -82,4 +82,7 @@ print("Intersection_Update is:",set2.intersection_update(set1))
 
 # issuperset()	Returns whether this set contains another set or not
 print(set2.issuperset(set1))
+#set comprehension
+a1 = {x for x in 'abrayfgcadabra' if x not in 'abc'}
+print(a1)
 
