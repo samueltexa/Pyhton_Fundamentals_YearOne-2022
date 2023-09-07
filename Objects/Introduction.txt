@@ -1,0 +1,29 @@
+Object oriented programming refers to the programming pattern that is built around objects or entities.
+it is a programming mthod based on the concept of objects which can contain data and code.
+In OOP, a class serves as a blueprint or template for creating objects.
+It defines the properties and behaviors that objects of that class will possess.
+Objects, on the other hand, are instances of classes and can interact with each other
+through method calls and data exchange.
+
+Fundamentals/Priciples
+
+The main principles of OOP include encapsulation, inheritance, and polymorphism.
+
+Encapsulation is the principle of bundling data and methods together within a class,
+hiding the internal implementation details from the outside and providing controlled
+access through interfaces. This allows for better organization of code and reduces the
+potential for conflicts or unintended modifications.
+
+Inheritance enables the creation of new classes (derived or child classes) based on
+existing classes (base or parent classes), inheriting their properties and behaviors.
+This promotes code reuse, as the derived classes can extend or modify the functionality
+of the base classes.
+
+Polymorphism refers to the ability of objects of different classes to respond to the same
+method or message in different ways. This allows for the use of abstract or generic code
+that can operate on objects of various types, enhancing flexibility and extensibility.
+
+OOP promotes modular and structured programming by dividing complex problems into smaller,
+more manageable entities (objects and classes), which can be developed and maintained independently.
+It provides a way to model real-world concepts, relationships, and interactions, making it suitable
+for building large-scale software systems.
