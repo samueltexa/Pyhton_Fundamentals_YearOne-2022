@@ -46,3 +46,12 @@ print("The sum of value1 and value2 is:",addition(2,4))
 # comparing function output
 print("3 + 4 equals 2 + 5 is", (addition(3, 4) == addition(2, 5)))
 print((addition(3, 4) == addition(2, 6)))
+
+def fib(n): # write Fibonacci series up to n
+    """Print a Fibonacci series up to n."""
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+# Now call the function we just defined:
+fib(2000)
