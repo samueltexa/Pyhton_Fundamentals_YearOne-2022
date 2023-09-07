@@ -1,2 +1,2 @@
-# Learn_Python_From_Scratch
-Learn Python From Scratch is a beginner-friendly repository that teaches fundamental Python programming concepts through step-by-step guidance, practical examples, and interactive learning materials. Gain the skills and confidence to write your own Python scripts and programs, opening doors to various career opportunities.Start your journey to becoming a proficient Python programmer by accessing the "Learn Python From Scratch" GitHub repository today.
+# Introduction to Python
+Python_Introduction is a beginner-friendly repository for fundamental Python programming concepts.
