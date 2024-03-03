@@ -1,5 +1,5 @@
 import socket
-import tkinter as mygui
+#import Tkinter as mygui
 from threading import Thread
 
 clientwindow = mygui.Tk()
