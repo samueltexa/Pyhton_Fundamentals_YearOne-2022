@@ -1,6 +1,7 @@
-# Python Tutorial Repository
+# Pyhton Fundamentals YearOne(2022)
+**Mbarara University Of Science And Technology**
 
-Welcome to the Python Tutorial repository! This repository is designed to provide beginners with a comprehensive guide to Python programming language.
+This repository showcases my journey through Python Fundamentals during my first year at Mbarara University Of Science And Technology in 2022. It provides a comprehensive guide for beginners looking to understand the basics of Python programming.
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -18,7 +19,8 @@ Python is a versatile and powerful programming language widely used in various f
 To get started with the tutorials, simply clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/samueltexa/Python_Tutorial.git
+git clone https://github.com/samueltexa/Pyhton_Fundamentals_YearOne-2022.git
+
 ```
 
 Once cloned, navigate to the repository directory and explore the contents. You'll find tutorial files organized by topics, along with examples and exercises to reinforce your learning.
